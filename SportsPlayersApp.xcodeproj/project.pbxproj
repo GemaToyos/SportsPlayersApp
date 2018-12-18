@@ -8,11 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		3BFA387F21C28AED00494F17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFA387E21C28AED00494F17 /* AppDelegate.swift */; };
-		3BFA388121C28AED00494F17 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFA388021C28AED00494F17 /* ViewController.swift */; };
-		3BFA388421C28AED00494F17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BFA388221C28AED00494F17 /* Main.storyboard */; };
+		3BFA388421C28AED00494F17 /* Players.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BFA388221C28AED00494F17 /* Players.storyboard */; };
 		3BFA388621C28AF100494F17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BFA388521C28AF100494F17 /* Assets.xcassets */; };
 		3BFA388921C28AF100494F17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BFA388721C28AF100494F17 /* LaunchScreen.storyboard */; };
 		3BFA389421C28AF200494F17 /* SportsPlayersAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFA389321C28AF200494F17 /* SportsPlayersAppTests.swift */; };
+		3BFA38A321C28B8B00494F17 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFA38A221C28B8B00494F17 /* NetworkError.swift */; };
+		3BFA38AA21C28C2C00494F17 /* NetworkingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFA38A921C28C2C00494F17 /* NetworkingService.swift */; };
+		3BFA38AC21C28CC600494F17 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFA38AB21C28CC600494F17 /* Player.swift */; };
+		3BFA38AF21C28DA700494F17 /* GetPlayerResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFA38AE21C28DA700494F17 /* GetPlayerResponse.swift */; };
+		3BFA38B121C28E5B00494F17 /* PlayerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFA38B021C28E5B00494F17 /* PlayerCell.swift */; };
+		3BFA38B321C28E7000494F17 /* PlayersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFA38B221C28E7000494F17 /* PlayersViewController.swift */; };
+		3BFA38B621C290DC00494F17 /* PlayerNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFA38B521C290DB00494F17 /* PlayerNetworking.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,14 +34,20 @@
 /* Begin PBXFileReference section */
 		3BFA387B21C28AED00494F17 /* SportsPlayersApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportsPlayersApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BFA387E21C28AED00494F17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3BFA388021C28AED00494F17 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3BFA388321C28AED00494F17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3BFA388321C28AED00494F17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Players.storyboard; sourceTree = "<group>"; };
 		3BFA388521C28AF100494F17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3BFA388821C28AF100494F17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3BFA388A21C28AF100494F17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3BFA388F21C28AF200494F17 /* SportsPlayersAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SportsPlayersAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BFA389321C28AF200494F17 /* SportsPlayersAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsPlayersAppTests.swift; sourceTree = "<group>"; };
 		3BFA389521C28AF200494F17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BFA38A221C28B8B00494F17 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		3BFA38A921C28C2C00494F17 /* NetworkingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingService.swift; sourceTree = "<group>"; };
+		3BFA38AB21C28CC600494F17 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		3BFA38AE21C28DA700494F17 /* GetPlayerResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetPlayerResponse.swift; sourceTree = "<group>"; };
+		3BFA38B021C28E5B00494F17 /* PlayerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerCell.swift; sourceTree = "<group>"; };
+		3BFA38B221C28E7000494F17 /* PlayersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersViewController.swift; sourceTree = "<group>"; };
+		3BFA38B521C290DB00494F17 /* PlayerNetworking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerNetworking.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,11 +89,9 @@
 		3BFA387D21C28AED00494F17 /* SportsPlayersApp */ = {
 			isa = PBXGroup;
 			children = (
-				3BFA387E21C28AED00494F17 /* AppDelegate.swift */,
-				3BFA388021C28AED00494F17 /* ViewController.swift */,
-				3BFA388221C28AED00494F17 /* Main.storyboard */,
+				3BFA389E21C28B2100494F17 /* Global */,
+				3BFA38A421C28BA000494F17 /* Players */,
 				3BFA388521C28AF100494F17 /* Assets.xcassets */,
-				3BFA388721C28AF100494F17 /* LaunchScreen.storyboard */,
 				3BFA388A21C28AF100494F17 /* Info.plist */,
 			);
 			path = SportsPlayersApp;
@@ -94,6 +104,102 @@
 				3BFA389521C28AF200494F17 /* Info.plist */,
 			);
 			path = SportsPlayersAppTests;
+			sourceTree = "<group>";
+		};
+		3BFA389E21C28B2100494F17 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				3BFA389F21C28B3700494F17 /* Model */,
+				3BFA38A021C28B3E00494F17 /* View */,
+				3BFA38A121C28B4600494F17 /* Controller */,
+				3BFA38A821C28BD100494F17 /* Service */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		3BFA389F21C28B3700494F17 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3BFA38A221C28B8B00494F17 /* NetworkError.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3BFA38A021C28B3E00494F17 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3BFA388721C28AF100494F17 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3BFA38A121C28B4600494F17 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3BFA387E21C28AED00494F17 /* AppDelegate.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3BFA38A421C28BA000494F17 /* Players */ = {
+			isa = PBXGroup;
+			children = (
+				3BFA38A721C28BC500494F17 /* Model */,
+				3BFA38A621C28BBF00494F17 /* View */,
+				3BFA38A521C28BB500494F17 /* Controller */,
+				3BFA38B421C290C100494F17 /* Service */,
+			);
+			path = Players;
+			sourceTree = "<group>";
+		};
+		3BFA38A521C28BB500494F17 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3BFA38B221C28E7000494F17 /* PlayersViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3BFA38A621C28BBF00494F17 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3BFA388221C28AED00494F17 /* Players.storyboard */,
+				3BFA38B021C28E5B00494F17 /* PlayerCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3BFA38A721C28BC500494F17 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3BFA38AD21C28D9400494F17 /* Responses */,
+				3BFA38AB21C28CC600494F17 /* Player.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3BFA38A821C28BD100494F17 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				3BFA38A921C28C2C00494F17 /* NetworkingService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		3BFA38AD21C28D9400494F17 /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				3BFA38AE21C28DA700494F17 /* GetPlayerResponse.swift */,
+			);
+			path = Responses;
+			sourceTree = "<group>";
+		};
+		3BFA38B421C290C100494F17 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				3BFA38B521C290DB00494F17 /* PlayerNetworking.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,9 +252,11 @@
 				TargetAttributes = {
 					3BFA387A21C28AED00494F17 = {
 						CreatedOnToolsVersion = 9.4;
+						LastSwiftMigration = 1010;
 					};
 					3BFA388E21C28AF200494F17 = {
 						CreatedOnToolsVersion = 9.4;
+						LastSwiftMigration = 1010;
 						TestTargetID = 3BFA387A21C28AED00494F17;
 					};
 				};
@@ -179,7 +287,7 @@
 			files = (
 				3BFA388921C28AF100494F17 /* LaunchScreen.storyboard in Resources */,
 				3BFA388621C28AF100494F17 /* Assets.xcassets in Resources */,
-				3BFA388421C28AED00494F17 /* Main.storyboard in Resources */,
+				3BFA388421C28AED00494F17 /* Players.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,8 +305,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BFA388121C28AED00494F17 /* ViewController.swift in Sources */,
+				3BFA38B121C28E5B00494F17 /* PlayerCell.swift in Sources */,
+				3BFA38B321C28E7000494F17 /* PlayersViewController.swift in Sources */,
+				3BFA38AC21C28CC600494F17 /* Player.swift in Sources */,
+				3BFA38A321C28B8B00494F17 /* NetworkError.swift in Sources */,
 				3BFA387F21C28AED00494F17 /* AppDelegate.swift in Sources */,
+				3BFA38AF21C28DA700494F17 /* GetPlayerResponse.swift in Sources */,
+				3BFA38B621C290DC00494F17 /* PlayerNetworking.swift in Sources */,
+				3BFA38AA21C28C2C00494F17 /* NetworkingService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,12 +335,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3BFA388221C28AED00494F17 /* Main.storyboard */ = {
+		3BFA388221C28AED00494F17 /* Players.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				3BFA388321C28AED00494F17 /* Base */,
 			);
-			name = Main.storyboard;
+			name = Players.storyboard;
 			sourceTree = "<group>";
 		};
 		3BFA388721C28AF100494F17 /* LaunchScreen.storyboard */ = {
@@ -359,14 +473,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2XSDJ8BQAM;
 				INFOPLIST_FILE = SportsPlayersApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = gema.toyos.SportsPlayersApp;
+				PRODUCT_BUNDLE_IDENTIFIER = gema.toyos.sports;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -376,14 +491,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2XSDJ8BQAM;
 				INFOPLIST_FILE = SportsPlayersApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = gema.toyos.SportsPlayersApp;
+				PRODUCT_BUNDLE_IDENTIFIER = gema.toyos.sports;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -394,6 +510,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2XSDJ8BQAM;
 				INFOPLIST_FILE = SportsPlayersAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -402,7 +519,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = gema.toyos.SportsPlayersAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SportsPlayersApp.app/SportsPlayersApp";
 			};
@@ -414,6 +531,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2XSDJ8BQAM;
 				INFOPLIST_FILE = SportsPlayersAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -422,7 +540,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = gema.toyos.SportsPlayersAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SportsPlayersApp.app/SportsPlayersApp";
 			};
